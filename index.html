@@ -1,13 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Login Page</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="wrapper">
+      <div class="form-box login">
+        <h2 class="heading">Login</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"></span>
+            <div class="input-box-and-image">
+            <input type="email" class="email">
+            <img src="public/icons/mail-icon.png" alt=""  class="mail-image">
+            
+          </div>
+            <br><label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"></span>
+            <div class="input-box-and-image">
+              <input type="password" class="password">
+              <img src="public/icons/locked-icon.png" alt="" class="locked-image">
+          </div>
+          <br><label>Password</label>
+          </div>
+          <div class="remember-forgot">
+            <label>
+              <input type="checkbox"> Remember me</label>
+            </div>
+          <button class="log-in">
+            Log in
+          </button>
+        </form>
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
