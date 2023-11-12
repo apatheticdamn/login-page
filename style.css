@@ -27,11 +27,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
 body {
   overflow-x: hidden;
-  width: 700px;
-  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #070a13;
 }
 
 
@@ -49,17 +55,6 @@ a {
   text-decoration: none;
 }
 
-
-body {
-  background-color: #070a13;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
 
 .heading {
   display: flex;
