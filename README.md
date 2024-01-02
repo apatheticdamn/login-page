@@ -8,9 +8,7 @@ Welcome to the awesome login page for my project! 👋
 - Responsive layout
 - Easy to use
 
-## Screenshots
-
-Include screenshots or GIFs to showcase your login page.
+## Screenshot
 
 ![Login Page](showcase/screenshot.png)
 
