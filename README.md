@@ -5,7 +5,6 @@ Welcome to the awesome login page for my project! 👋
 ## Features
 
 - Beautiful design
-- Responsive layout
 - Easy to use
 
 ## Screenshot
